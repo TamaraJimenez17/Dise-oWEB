@@ -1,0 +1,54 @@
+
+
+body {
+    width: 100%;
+    background: linear-gradient(135deg, #7b054d 23%,#d269df 100%);
+    font-family: 'Playball';
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+
+    
+}
+.nombre input  {
+    border-radius: 60px;
+    height: 30px;
+    width: 30%;
+}
+.apellido input {
+    border-radius: 60px;
+    height: 30px;
+    width: 30%;
+}
+.correo input {
+    border-radius: 60px;
+    height: 30px;
+    width: 30%;
+
+}   
+label {
+color: white;
+font-family: 'Playball', cursive;
+font-size: 22px;
+margin-left: 20px;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: white;
+    background-color: #ca33a9e8;
+    border-radius: 60px;
+    height: 40px;
+    width: 10%;
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center; 
+
+}
+button:hover {
+    color: #ca33a9e8;
+    background-color: white;
+} 

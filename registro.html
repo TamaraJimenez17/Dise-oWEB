@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="registro.css"> 
+     <title>Formulario de registro</title>
+ </head>
+    <body>
+            <h1>Formulario de registro</h1>
+
+            <div class="nombre">
+            <label for="Nombre">Nombre:</label>
+            <input name="Nombre" type="text"> 
+            </div><br>
+
+            <div class="apellido">
+            <label for="Apellido">Apellido:</label>
+            <input name="Apellido" type="text"> 
+            </div><br>
+
+            <div>
+            <label for="Sexo">Sexo:</label>
+            <input name="sexo" type="radio" id="Hombre">
+            <label for="Hombre">Hombre:</label>
+            <input name="sexo" type="radio" id="Mujer">
+            <label for="Mujer">Mujer:</label>
+            </div><br>
+
+            <div class="correo">
+            <label for="Correo">Correo:</label> 
+            <input name="Correo" type="email"> 
+            </div><br>
+
+            <div class="Descripción">
+            <label for="Descripción">Descripción:</label>
+            <textarea id="Descripción" name="Descripción" rows="4" cols="50"></textarea>
+            </div><br>
+
+            <div>
+                <input type="checkbox"> 
+                <label for="oferta">Deseo recibir información y novedades</label>
+                </div><br>
+    
+                <div>
+                <input type="checkbox">
+                <label for="condiciones">Declaro haber leido y aceptado las condiciones generales del programa y la normativa sobre de protección de datos</label>
+                </div>
+
+            <button>Enviar</button>
+    </body>
+ </html>
